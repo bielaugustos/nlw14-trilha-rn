@@ -1,0 +1,13 @@
+import { Text, View } from "react-native";
+import tw from 'twrnc';
+
+export default function Home() {
+  return (
+<View className="flex-1 pt-8">
+  <Text className="text-white text-2xl">
+    hello react native !
+  </Text>
+</View>
+
+  );
+}
